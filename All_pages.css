@@ -9,6 +9,7 @@
 }
 
 body {
+
     background: #0092ed;
 
 
@@ -21,7 +22,11 @@ body {
     color: rgba(255, 255, 255, 0.739)
 }
 
-
 h1 {
     font-family: "Condiment", cursive;
 }
+.style_bar{
+    background-image: url("Title\ bar.svg");background-size: contain;
+    height: 40px;
+}
+
