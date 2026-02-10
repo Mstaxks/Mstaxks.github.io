@@ -9,6 +9,13 @@
 }
 
 body {
+    background: #0092ed;
+
+
+    background: #205ee3;
+    background: #205ee3;
+    background: radial-gradient(circle, rgba(32, 94, 227, 0.47) 0%, rgba(15, 39, 89, 1) 49%, rgba(20, 95, 255, 0.2) 100%);
+
     font-family: "Trade Winds", system-ui;
     background-color: black;
     color: rgba(255, 255, 255, 0.739)
