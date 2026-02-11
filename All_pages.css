@@ -24,6 +24,7 @@ body {
 
 h1 {
     font-family: "Condiment", cursive;
+    text-align: center;
 }
 .style_bar{
     background-image: url("Title\ bar.svg");background-size: contain;
