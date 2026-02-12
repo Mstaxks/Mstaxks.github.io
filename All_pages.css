@@ -32,3 +32,29 @@ h1 {
     height: 40px;
 }
 
+.list-image-container {
+    display: flex;
+    align-items: center;
+    gap: 70px;
+}
+.links-container {
+    display: flex;
+    justify-content: flex-start;
+    gap: 50px;
+    margin-top: 20px;
+}
+a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 20px;
+    background-color: #1a3a6b;
+    border-radius: 50%;
+    color: #8e8fa0;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px;
+}
+
