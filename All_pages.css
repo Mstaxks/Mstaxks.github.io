@@ -58,3 +58,37 @@ a {
     padding: 20px;
 }
 
+.bottom-nav {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-image: url("Title bar.svg"); /* Set the background image */
+    background-size: cover; /* Ensure the image covers the entire nav bar */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.bottom-nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.bottom-nav ul li {
+    display: inline;
+}
+
+.bottom-nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.bottom-nav ul li a:hover {
+    text-decoration: underline;
+}
