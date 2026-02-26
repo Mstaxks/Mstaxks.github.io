@@ -93,3 +93,8 @@ a {
     text-decoration: underline;
     background-color: #2e67be;
 }
+
+.skills{
+    display: flex;
+    justify-content: space-between;
+}
