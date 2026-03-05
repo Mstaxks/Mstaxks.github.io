@@ -102,3 +102,26 @@ a {
 margin-bottom: 100px;
 
 }
+.layout {
+    display: flex;
+    gap: 20px;
+    min-height: 20vh; /* sets the height to the entire view */
+  }
+  
+  .sidebar {
+    width: 250px;
+    flex-shrink: 15;  /* prevents the sidebar from shrinking */
+    background: #e0e7ff2e;
+    padding: 20px;
+    border-radius: 8px;
+  
+  }
+  
+  .main-content {
+    flex: 2000_;  /* fill remaining space */
+    width: 330px;
+    background: #f9fafb29;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
