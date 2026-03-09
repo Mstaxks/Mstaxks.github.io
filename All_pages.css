@@ -109,7 +109,7 @@ margin-bottom: 100px;
   }
   
   .sidebar {
-    width: 250px;
+    width: 550px;
     flex-shrink: 15;  /* prevents the sidebar from shrinking */
     background: #e0e7ff2e;
     padding: 20px;

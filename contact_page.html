@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -19,32 +20,59 @@
     <h1 style="font-size: 35px;">Here you can reach me at the places available</h1>
     <div class="style_bar"></div>
     <p>
-        If you want to contact me, you can click on the links below to see my social media accounts and my email in the following below.
+        If you want to contact me, you can click on the links below to see my social media accounts and my email in the
+        following below.
     </p>
-   
-    <div class="layout">
-        <aside class="sidebar">
-          <h2 style="text-align: left;"> Phone number</h2>
 
-          <p> <iconify-icon icon="garden:phone-call-speaker-stroke-12" height="20"></iconify-icon> +1(917)586-6646.</p>
-        </aside>
-        <main class="main-content">
-          <h1 style="text-align: left;">Email</h1>
-          <p> <iconify-icon icon="logos:google-gmail" height="20"></iconify-icon> EmmanuelRobledo756@gmail.com</p>
-        </main>
-    </div>
+    <a href="">
+        
+        <iconify-icon icon="arcticons:emiliosdict" width="48" height="48"></iconify-icon>
+    </a>
+
+<div>
     
     <div class="layout">
         <aside class="sidebar">
-          <h2 style="text-align: left;"> Phone number</h2>
+            <h2 style="text-align: left;"> Contact Form</h2>
+            <form action="https://form-to-email.steamc.workers.dev/" method="post">
 
-          <p> <iconify-icon icon="garden:phone-call-speaker-stroke-12" height="20"></iconify-icon> +1(917)586-6646.</p>
+                <input type="text" name="send-to" value="erobledo@brooklynsteamcenter.org" hidden>
+                <label for="name">Name:
+                    <input type="text" placeholder="Whats your name?">
+                </label>
+                <br>
+                <label for="phone">Phone:
+                    <input type="tel" placeholder="123-456-7890">
+                    <br>
+                </label>
+                <label for="email">Email:
+                    <input type="email" placeholder="Whats your email?">
+                </label>
+                <br>
+                <label for="reason">Reason for contact:
+                    <select>
+                        <option value="general">I need personal help</option>
+                        <option value="feedback">Need help making my own website</option>
+                        <option value="collaboration">Collaborations</option>
+                    </select>
+                </label>
+                <br>
+                <label>
+                    extra details I might need to know
+                    <input type="extra comments">
+                </label>
+                <br>
+                <button type="submit">Submit</button>
+                <button type="reset">Clear form</button>
+            </form>
         </aside>
         <main class="main-content">
-          <h1 style="text-align: left;">Email</h1>
-          <p> <iconify-icon icon="logos:google-gmail" height="20"></iconify-icon> EmmanuelRobledo756@gmail.com</p>
-        </main>
+            <h1>Main Content</h1>
+            <p>This area should fill all remaining horizontal space.</p>
+      </main>
+  
     </div>
+
 
 
 
@@ -58,4 +86,5 @@
         </ul>
     </nav>
 </body>
+
 </html>
