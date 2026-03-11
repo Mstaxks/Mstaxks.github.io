@@ -12,7 +12,7 @@ body {
 
 
     background: #0092ed;
-margin: 0;
+    margin: 0;
 
     background: #205ee3;
     background: #205ee3;
@@ -27,8 +27,10 @@ h1 {
     font-family: "Condiment", cursive;
     text-align: center;
 }
-.style_bar{
-    background-image: url("Title\ bar.svg");background-size: contain;
+
+.style_bar {
+    background-image: url("Title\ bar.svg");
+    background-size: contain;
     height: 40px;
 }
 
@@ -37,13 +39,15 @@ h1 {
     align-items: center;
     gap: 70px;
 }
+
 .links-container {
     display: flex;
     justify-content: flex-start;
     gap: 50px;
     margin-top: 20px;
 }
-a {
+
+nav a {
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -62,9 +66,12 @@ a {
     position: fixed;
     bottom: 0;
     width: 100%;
-    background-image: url("Title bar.svg"); /* Set the background image */
-    background-size: cover; /* Ensure the image covers the entire nav bar */
-    background-repeat: no-repeat; /* Prevent the image from repeating */
+    background-image: url("Title bar.svg");
+    /* Set the background image */
+    background-size: cover;
+    /* Ensure the image covers the entire nav bar */
+    background-repeat: no-repeat;
+    /* Prevent the image from repeating */
     color: white;
     text-align: center;
     padding: 10px 0;
@@ -94,34 +101,61 @@ a {
     background-color: #2e67be;
 }
 
-.skills{
+.skills {
     display: flex;
     justify-content: space-between;
 }
-.last_words{
-margin-bottom: 100px;
+
+.last_words {
+    margin-bottom: 100px;
 
 }
+
 .layout {
     display: flex;
     gap: 20px;
-    min-height: 20vh; /* sets the height to the entire view */
-  }
-  
-  .sidebar {
+    min-height: 20vh;
+    /* sets the height to the entire view */
+}
+
+.sidebar {
     width: 550px;
-    flex-shrink: 15;  /* prevents the sidebar from shrinking */
-    background: #e0e7ff2e;
+    flex-shrink: 15;
+    /* prevents the sidebar from shrinking */
+    background: #e0e7ff10;
     padding: 20px;
     border-radius: 8px;
-  
-  }
-  
-  .main-content {
-    flex: 2000_;  /* fill remaining space */
+
+}
+
+.main-content {
+    flex: 2000_;
+    /* fill remaining space */
     width: 330px;
-    background: #f9fafb29;
+    background: #f9fafb0b;
     padding: 20px;
     border-radius: 8px;
-  }
-  
+}
+
+@media screen and (max-width: 768px) {
+    .layout {
+        flex-direction: column;
+    }
+
+    .sidebar,
+    .main-content {
+        width: 75%;
+    }
+
+    .hide-on-mobile {
+        display: none;
+    }
+
+    nav, nav a {
+        background-size: auto;
+        width: 80px;
+        height: 20px;
+        padding: 5px;
+
+    }
+}
