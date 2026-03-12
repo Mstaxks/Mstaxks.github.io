@@ -158,4 +158,13 @@ nav a {
         padding: 5px;
 
     }
+    .picture_scale {
+        width: 175px;
+        height: auto;
+    }
+}
+@media screen and (min-width: 768px) {
+    .hide-on-pc {
+        display: none;
+    }
 }
