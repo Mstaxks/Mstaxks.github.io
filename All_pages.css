@@ -29,7 +29,7 @@ h1 {
 }
 
 .style_bar {
-    background-image: url("Title\ bar.svg");
+    background-image: url("Title\ bar\ \(1\).png");
     background-size: contain;
     height: 40px;
 }
@@ -66,7 +66,7 @@ nav a {
     position: fixed;
     bottom: 0;
     width: 100%;
-    background-image: url("Title bar.svg");
+    background-image: url("Title\ bar\ \(1\).png");
     /* Set the background image */
     background-size: cover;
     /* Ensure the image covers the entire nav bar */
@@ -184,3 +184,14 @@ nav a {
   
   .card h2 { margin-bottom: 1px; font-size: 1rem; }
   
+
+  .about_links:link {
+      color: rgba(255, 255, 255, 0.768);
+      background-color: transparent;
+      text-decoration: none;
+    }
+    .about_links:visited {
+color: rgb(255, 255, 255, 0.768);
+background-color: transparent;
+text-decoration: none;
+}
