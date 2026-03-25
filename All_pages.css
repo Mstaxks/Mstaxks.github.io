@@ -198,4 +198,20 @@ text-decoration: none;
 .flt {
     display: flex;
     justify-content: space-around;
+    border-radius: 15px;
 }
+
+.border {
+    border-color: #8e8fa0;
+}
+.flex_end {
+    display: flex;
+    justify-content:flex-end;
+    border-radius: 15px;
+}
+
+.size-mod {
+    max-width: 700px;
+    margin: auto;
+    padding: 10px;
+  }
