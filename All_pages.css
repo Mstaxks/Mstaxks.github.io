@@ -151,50 +151,60 @@ nav a {
         display: none;
     }
 
-    nav, nav a {
+    nav,
+    nav a {
         background-size: auto;
         width: 80px;
         height: 20px;
         padding: 5px;
 
     }
+
     .picture_scale {
         width: 175px;
         height: auto;
     }
 }
+
 @media screen and (min-width: 768px) {
     .hide-on-pc {
         display: none;
     }
 }
+
 .card-container {
     display: ________;
     flex-wrap: wrap;
     gap: 20px;
-  }
-  
-  .card {
-    flex: 1 1 200px; /* grow | shrink | base width — don't change this */
+}
+
+.card {
+    flex: 1 1 200px;
+    /* grow | shrink | base width — don't change this */
     background: rgba(255, 255, 255, 0.043);
     border: 1px solid #e0e0e084;
     border-radius: 20px;
     padding: 5px;
-  }
-  
-  .card h2 { margin-bottom: 1px; font-size: 1rem; }
-  
-
-  .about_links:link {
-      color: rgba(255, 255, 255, 0.768);
-      background-color: transparent;
-      text-decoration: none;
-    }
-    .about_links:visited {
-color: rgb(255, 255, 255, 0.768);
-background-color: transparent;
-text-decoration: none;
 }
+
+.card h2 {
+    margin-bottom: 1px;
+    font-size: 1rem;
+}
+
+
+.about_links:link {
+    color: rgba(255, 255, 255, 0.768);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.about_links:visited {
+    color: rgb(255, 255, 255, 0.768);
+    background-color: transparent;
+    text-decoration: none;
+}
+
 .flt {
     display: flex;
     justify-content: space-around;
@@ -204,9 +214,9 @@ text-decoration: none;
 .border {
     border-color: #ffffffab;
 }
+
 .flex_end {
     display: flex;
-    justify-content:flex-end;
+    justify-content: flex-end;
     border-radius: 15px;
 }
-
